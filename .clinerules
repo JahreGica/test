@@ -1,0 +1,15 @@
+SAFETY RULES
+- Only work inside this project folder. Never read, edit, move, or delete anything outside it.
+- Never run destructive commands without asking me first. This includes: rm, del, rmdir, Remove-Item, format, git reset --hard, git clean, git push --force, git branch -D, and anything that deletes more than one file.
+- Never run commands with sudo or admin rights, and never change system settings, PATH, registry, or global config.
+- Never install global packages (npm install -g, pip install without a venv). Ask first before installing any dependency.
+- Never read, print, or commit secrets: .env files, API keys, tokens, passwords. Never ask me to paste secrets into the chat.
+- Never run commands that download and execute scripts (curl | bash, iex, irm | iex).
+- Before git push, show me what will be pushed and wait for my OK. Never force-push.
+- Make small changes and commit after each working step so I can undo mistakes with git.
+- If a command is unclear or risky, stop and ask instead of guessing.
+
+SAFE TO RUN WITHOUT ASKING
+- Listing and reading files inside this project.
+- git status, git diff, git log, git add, git commit.
+- Running the project's dev server, build, and tests.
